@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.Img {
+  width: 60px;
+}
+.Img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+#navbarNavAltMarkup {
+  padding-left: 750px;
+  margin: 20px;
+}
+.navbar-nav {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 10px;
+  margin-right: 10px;
+  color: green;
+}
+.collapse a:hover {
+  border-radius: 2px;
+  background-color: rgb(28, 105, 59);
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.carousel-caption h1 {
+  font-size: 60px;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+.d-block {
+  height: 700px;
+}
+.collapse {
+  color: green;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Bhagi h3:hover {
+  transform: skew(0deg) scale(1.4);
+  color: rgb(108, 178, 11);
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.Bhagi h2:hover {
+  color: rgb(159, 212, 114);
+  transition: color 0.3s ease-in-out;
+}
+
+.card {
+  display: inline-flex;
+}
+.card:hover {
+  color: rgb(73, 213, 129);
+}
+.card-img-top {
+  width: 100px;
+  transition: transform 0.3s ease-in-out;
+}
+.card-img-top:hover {
+  transform: rotate(30deg) scale(1.2);
+}
+.card {
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 50px;
+}
+.Bhagi {
+  margin-top: 60px;
+  color: rgb(15, 102, 59);
+  text-align: center;
+}
+.B1 {
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
+
+.oldman {
+  margin-top: 80px;
+  padding-left: 90px;
+  height: 800px;
+  width: 600px;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.oldman {
+  opacity: 1;
+  transition: transform 0.3s ease-in-out;
+}
+.oldman:hover {
+  transform: skew(0deg) scale(1.2);
+}
+.man {
+  margin-top: 100px;
+  background-color: rgb(15, 71, 15);
+  height: 800px;
+  display: inline-flex;
+}
+.icon1 h6:hover {
+  color: rgb(39, 227, 146);
+  transition: color 0.3s ease-in-out;
+}
+.info {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 20;
+  padding-left: 40px;
+  margin-top: 80px;
+  color: aliceblue;
+}
+.icon1 {
+  padding-left: 80px;
+}
+.icon1 h6:hover {
+  color: rgb(39, 227, 146);
+}
+.veg {
+  margin-top: 100px;
+  display: inline-flex;
+}
+.veg1 {
+  padding-left: 100px;
+  margin-right: 200px;
+}
+.vegman {
+  width: 600px;
+  height: 700px;
+  padding-right: 90px;
+}
+.v1 {
+  color: darkgreen;
+}
+.Butt {
+  width: 170px;
+  height: 60px;
+  border: 5px black;
+  border-radius: 5px;
+  background-color: darkgreen;
+  color: aliceblue;
+}
+.Butt:hover {
+  background-color: rgb(50, 205, 50); /* Lighter green on hover */
+  transform: scale(1.1); /* Slightly enlarge button on hover */
+}
+.v2 {
+  font-size: 20px;
+}
+.service {
+  margin-top: 60px;
+  background-color: black;
+  height: 700px;
+}
+.s1 {
+  margin-top: 100px;
+  padding-left: 100px;
+  padding-top: 60px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.s1:hover {
+  transform: translateY(
+    -10px
+  ); /* Moves the element slightly upwards on hover */
+}
+.card-img-top1 {
+  width: 250px;
+}
+.card1 {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 50px;
+}
+.card1:hover {
+  transform: scale(1.05); /* Slightly enlarge card1 on hover */
+}
+.img-1:hover {
+  color: rgb(101, 102, 103) 0.5px;
+}
+.img-1:hover {
+  transform: rotate(360deg) scale(1.2); /* Rotate and enlarge on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+.img-1 {
+  width: 150px;
+  height: 150px;
+  border: 2px black;
+  border-radius: 50%;
+}
+.test {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 140px;
+  gap: 70px;
+}
+.subscribe {
+  padding-left: 140px;
+  margin-top: 120px;
+  display: flex;
+  background-color: rgb(212, 212, 205);
+  height: 300px;
+  transition: background-color 0.3s ease-in-out;
+}
+.sub1 {
+  margin-top: 100px;
+}
+.sub2 {
+  margin-top: 100px;
+  padding-left: 250px;
+}
+.in1 {
+  border: 2px solid green;
+  width: 500px;
+  height: 60px;
+}
+.b-1 {
+  color: white;
+  background-color: green;
+  width: 110px;
+  height: 60px;
+}
+ul {
+  margin-top: 60px;
+  list-style-type: none;
+  margin: 60px;
+}
+.agriculture {
+  background-color: rgb(41, 36, 36);
+  color: white;
+  display: flex;
+  padding-left: 50px;
+}
+
+h4 {
+  color: rgb(21, 94, 70);
+  text-decoration: white dashed;
+}
+.a-2 li {
+  color: rgb(148, 152, 152);
+}
+.a-3 li {
+  color: rgb(148, 152, 152);
+}
+.a-4 li {
+  color: rgb(148, 152, 152);
+}
+.a-5 li {
+  color: rgb(148, 152, 152);
+}
+.last {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  height: 120px;
+}
+.la {
+  padding-top: 40px;
+  padding-left: 140px;
+}
+.serve-img {
+  margin-top: 150px;
+  display: flex; /* Aligns images in a row */
+  gap: 25px; /* Adds a gap between images */
+}
+.serve-img img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  opacity: 0.9; /* Slight opacity change on hover */
+}
+
+.serve-img img {
+  width: 350px;
+  height: 500px; /* Adjusts the width of each image */
+  height: auto; /* Maintains the aspect ratio of images */
+}
+
+.service {
+  text-align: center;
+}
